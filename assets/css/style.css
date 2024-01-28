@@ -141,7 +141,7 @@ a {
   .menuIcon {
     cursor: pointer;
     display: block;
-    position: fixed;
+    position: absolute;
     right: 15px;
     top: 20px;
     height: 23px;
@@ -339,8 +339,28 @@ a {
   background-color: #f3ab18;
   border: 1.5px solid transparent;
   transition: .5s;
-  
 }
+
+
+.Button_main2{
+  padding: 8px 13px;
+  background-color: #f3ab18;
+  text-decoration: none;
+  color: black;
+  border-radius: 3px;
+  border: 1.5px solid #f3ab18;
+  transition: transform .2s;
+}
+.Button_main2:hover{
+  color: black;
+  background-color: transparent;
+  border: 1.5px solid black;
+  transition: .5s;
+}
+
+
+
+
 
 
 .Main_headings{
