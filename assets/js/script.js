@@ -31,3 +31,15 @@
         });
 
 
+        function changeBg() {
+          var indi = document.getElementById("indi");
+          var scrollValue = window.scrollY;
+          if (scrollValue < 400) {
+            indi.style.display = "none";
+          } else if (scrollValue > 400) {
+            indi.style.display = "block";
+          }
+        }
+        changeBg();
+
+        window.addEventListener("scroll", changeBg);

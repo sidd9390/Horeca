@@ -367,3 +367,7 @@ a {
  color: #43ab6c;
   
 }
+.indi{
+  display: none;
+  transition: 0.5s;
+}
